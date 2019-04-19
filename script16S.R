@@ -109,7 +109,7 @@ plot(hell.hclust, edge.lty = 1,
 
 Bact.Jul<-subset_samples(phyloBactnorm, Month.ent == "Jul.")
 OTU.ordBact<-ordinate(Bact.Jul,"MDS","bray")
-MdsJul=plot_ordination(Bact.Jul,OTU.ordBact,type="sample",color="Month.Inoc", shape="Saison",axes = c(2,3))+
+MdsJul=plot_ordination(Bact.Jul,OTU.ordBact,type="sample",color="Month.Inoc", shape="Saison",axes = c(1,2))+
   scale_shape_manual(values = c(17)) + geom_point(size=3)+
   theme(panel.spacing = unit(1, "lines"))+ 
   scale_color_manual(values = c("#009900","#66ff66"))
