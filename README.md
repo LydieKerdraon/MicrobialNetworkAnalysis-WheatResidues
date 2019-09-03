@@ -1,1 +1,1 @@
-# MicrobialNetworkAnalysis-WheatResidues
+These scripts detail statistical analysis made on bacterial and fungal communities found on crop residues. Figures corresponding to these scripts can be found in Kerdraon L, Barret M, Laval V, Suffert F. Differential dynamics of microbial community networks help identify microorganisms interacting with residue-borne pathogens: the case of Zymoseptoria tritici in wheat. Microbiome 2019;7:125. doi:10.1186/s40168-019-0736-0.
